@@ -1,0 +1,45 @@
+This file explains M4 test cases
+
+
+Sharon
+monumentHealthIsEqualTo1000() 
+* This will test whether the monument health is initialized to 1000
+* This makes sure that the monument always shows up with the same health
+
+monumentXIsEqualTo1712()
+* This will test whether the monument is initialized to 1712 for its x coordinate
+* This makes sure that the monument always shows up at the same location on the map
+
+Neo
+speedofFlameEnemyIsEqualto10()
+* This will test the initial characteristics of the Flame Enemy. 
+* It tests whether the Flame Enemy’s speed is initially set to 10.
+
+monumentYIsEqualTo150()
+* This will test the initial y-coordinate of the monument on the map. 
+* It test whether the monument’s y-coordinate is set to 150.
+
+Jason
+speedOfNinjaEnemyIsEqualTo20()
+* This test case checks if the ninja has 20 speed unit. It is important to check the speed of Ninja
+because the speed will be changed in the future implementation, so the initial speed would be measured.
+
+speedOfSpiritEnemyIsEqualTo5()
+* This test case checks if the spirit has 5 speed unit. It is important to check the speed of Spirit
+because the speed will be different than the original speed in the future implementation, hence the initial speed need to be measured.
+
+Felice
+yOfNinjaEnemyIsEqualTo750()
+* This test checks if ninja starts with a y-coordinate of 750
+
+yOfFlameEnemyIsEqualTo750()
+* This test checks if flame starts with a y-coordinate of 750
+
+Harrison
+yOfSpiritEnemyIsEqualTo20
+* this test case checks if spirit starts with a y coordinate of 750
+
+ninjaSpeedCanBeChanged
+* this test checks if the ninja's speed can be changed
+* the test helps the ninja's speed is controlled by the magic tower which the team implement on the next milestone.
+

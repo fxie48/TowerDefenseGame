@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VictoryScreen"
+    android:background="@drawable/mainscreen">>
+
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="133dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="272dp"
+            android:layout_height="164dp"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="15"
+            android:shadowDy="15"
+            android:shadowRadius="1"
+            android:text="Victory!"
+            android:textColor="#FFF"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="199dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47000003">
+
+        <ImageView
+            android:id="@+id/goldcoin2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/goldcoin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="136dp"
+        android:layout_height="96dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+        <ImageView
+            android:id="@+id/goldcoin1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/goldcoin" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            app:srcCompat="@drawable/goldcoin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="123dp"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+        <ImageView
+            android:id="@+id/silverCoin1"
+            android:layout_width="103dp"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/silvercoin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53">
+
+        <ImageView
+            android:id="@+id/silverCoin2"
+            android:layout_width="103dp"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/silvercoin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89">
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:text="Restart"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92">
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:text="quit"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="207dp"
+        android:layout_height="136dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
+        <TextView
+            android:id="@+id/finalMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="254dp"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72">
+
+        <ImageView
+            android:id="@+id/weapon2"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/tigerweapon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997">
+
+        <TextView
+            android:id="@+id/enemiesKilled"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="246dp"
+        android:layout_height="121dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.49">
+
+        <TextView
+            android:id="@+id/moneySpent"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

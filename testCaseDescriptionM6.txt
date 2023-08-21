@@ -1,0 +1,39 @@
+This file explains M5 test cases
+
+Sharon
+*checkFrogTowerUpgradedOrNot()
+This test makes sure that frog tower can be determined upgraded or not
+
+*checkMagicTowerUpgradedOrNot()
+This test makes sure that magic tower can be determined upgraded or not
+
+Neo
+*bossSpeedCannotBeBelowZero()
+This test case checks that the speed cannot be below 0. If attempted, it should default to 0 instead. 
+
+*bulletAttackBossEnemy()
+This test checks the health of the Ninja Enemy as it is hit by a bullet a certain number of times. 
+In other words, it checks that the health of the Ninja enemy is being decremented correctly.
+
+Jason
+*theHealthOfTheBossIs100()
+This test can check if the boss is initiated with health value 100.
+
+*theBossStartsJumpingOnTheRightStep()
+The boss has 20 different jump steps to show the smooth movement on the screen.
+This method can check if the step starts at index 1.
+
+Harrison
+*speedOfTheBossIsFive()
+This test can check if the speed of the boss is set with 5.
+
+*theBossStartsOnTheRightPosition()
+This test can check if the boss is initiated in the right y position.
+
+Felice
+*checkTigerTowerUpgradedOrNot()
+This test makes sure that Tiger tower can be determined upgraded or not.
+
+*bossCheckIsJump()
+This test case checks that the jump action of the boss can be changed.
+

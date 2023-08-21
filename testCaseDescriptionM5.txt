@@ -1,0 +1,41 @@
+This file explains M5 test cases
+
+Sharon
+*ninjaSpeedCannotBeNagative()
+This test checks if ninja's speed is always greater than 0
+This makes sure that ninja's speed cannot be set to a negative value, which could break the code
+
+*flameSpeedCannotBeNagative()
+This test checks if flame's speed is always greater than 0
+This makes sure that flame's speed cannot be set to a negative value, which could break the code
+
+Neo
+*bulletAttackNinjaEnemy()
+This test checks the health of the Ninja Enemy as it is hit by a bullet a certain number of times. 
+In other words, it checks that the health of the Ninja enemy is being decremented correctly. 
+
+*bulletAttackFlameEnemy()
+This test checks the health of the Flame Enemy as it is hit by a bullet a certain number of times. 
+In other words, it checks that the health of the Flame enemy is being decremented correctly. 
+
+Jason
+*speedOfBulletIsEqualTo50
+This test can check if the speed of projectiles is set with 50
+
+*bulletDistanceMethodCanCalculateDistanceBetweenBulletAndEnemy
+This test would check getBulletDistance method works correctly
+
+Felice
+*moneyIncrements()
+This test checks that each time the Ninja enemy is hit by the bullet, the cash the player has is incremented by 1 coin. 
+
+*bulletAttackSpiritEnemy()
+This test checks that the health of the Spirit enemy is decremented correctly every time the spirit is hit. It checks that every time the enemy gets attacked, the health decreases by 10.
+
+Harrison
+*moneyIncrementFlame()
+This test checks that each time the Enemy enemy is hit by the bullet, the cash the player has is incremented by 2 coins. 
+
+*moneyIncrementSpirit()
+This test checks that each time the Spirit enemy is hit by the bullet, the cash the player has is incremented by 3 coins. 
+

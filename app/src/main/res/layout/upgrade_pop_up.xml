@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="750dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.06999999">
+
+            <TextView
+                android:id="@+id/insufficient_funds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insufficient Funds -- Cannot Purchase" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="464dp"
+            android:layout_height="185dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.58000004">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="116dp"
+                android:layout_height="118dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/upgradetower1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="40" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="116dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/upgradetower2" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="28" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="155dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/upgradetower3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="449dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.83">
+
+            <Button
+                android:id="@+id/tower1"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Purchase ($100)" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="10
+" />
+
+            <Button
+                android:id="@+id/tower2"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Purchase ($200)" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="10
+" />
+
+            <Button
+                android:id="@+id/tower3"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Purchase ($350)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="85dp"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07999998">
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="close" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="115dp"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="5">
+
+            <Button
+                android:id="@+id/upgrade"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="return" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="740dp"
+            android:layout_height="410dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

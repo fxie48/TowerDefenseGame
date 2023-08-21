@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game_screen">
+
+    <RelativeLayout
+
+        android:id="@+id/towerMap"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+
+        >
+
+
+        <ImageButton
+            android:id="@+id/towerLocation1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="90dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginBottom="90dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag"
+
+            />
+
+        <ImageButton
+            android:id="@+id/towerLocation3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginBottom="90dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation4"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginBottom="140dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation5"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginBottom="190dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+
+        <ImageButton
+            android:id="@+id/towerLocation6"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginBottom="240dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+
+        <ImageButton
+            android:id="@+id/towerLocation8"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginBottom="290dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation9"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginBottom="290dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation10"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="225dp"
+            android:layout_marginBottom="290dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation11"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="265dp"
+            android:layout_marginBottom="290dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+
+
+        <ImageButton
+            android:id="@+id/towerLocation14"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginBottom="240dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation15"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="315dp"
+            android:layout_marginBottom="190dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation16"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="360dp"
+            android:layout_marginBottom="190dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation17"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="405dp"
+            android:layout_marginBottom="190dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation12"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="450dp"
+            android:layout_marginBottom="187dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation18"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="450dp"
+            android:layout_marginBottom="141dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation19"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="450dp"
+            android:layout_marginBottom="95dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation20"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="505dp"
+            android:layout_marginBottom="95dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation21"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="560dp"
+            android:layout_marginBottom="95dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation24"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="560dp"
+            android:layout_marginBottom="135dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation25"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="560dp"
+            android:layout_marginBottom="185dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation27"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="560dp"
+            android:layout_marginBottom="235dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation28"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="645dp"
+            android:layout_marginBottom="260dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation29"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="645dp"
+            android:layout_marginBottom="210dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation30"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="645dp"
+            android:layout_marginBottom="160dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation31"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="645dp"
+            android:layout_marginBottom="110dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation32"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="645dp"
+            android:layout_marginBottom="60dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+
+
+        <ImageButton
+            android:id="@+id/towerLocation33"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="305dp"
+            android:layout_marginBottom="290dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation36"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="595dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation37"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="545dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation38"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="495dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation39"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="445dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation40"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="495dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation41"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="445dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation7"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="395dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation42"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="360dp"
+            android:layout_marginBottom="60dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation43"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="360dp"
+            android:layout_marginBottom="110dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation44"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="310dp"
+            android:layout_marginBottom="110dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation45"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginBottom="110dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation47"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginBottom="155dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation48"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginBottom="210dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation49"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="194dp"
+            android:layout_marginBottom="210dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation50"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="210dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation51"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="160dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation52"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="110dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation53"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginBottom="60dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+        <ImageButton
+            android:id="@+id/towerLocation55"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="106dp"
+            android:layout_marginBottom="4dp"
+            android:background="@null"
+            android:tag="available"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/flag" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowRadius="1"
+            android:text="Shop"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="600dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="55dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Battle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:fontFamily="@font/normalfont"
+            android:shadowColor="#000"
+            android:shadowDx="7"
+            android:shadowDy="7"
+            android:shadowRadius="1"
+            android:text="Start"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="485dp"
+            android:layout_marginBottom="266dp"
+            android:orientation="vertical"
+            android:rotationX="-2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:rotationX="2">
+
+                <ImageView
+                    android:id="@+id/heart1"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/heart1"
+                    android:cropToPadding="false"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart2"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart3"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart3"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart4"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart4"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart5"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart5"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart6"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/heart7"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart8"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart9"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart10"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart11"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+                <ImageView
+                    android:id="@+id/heart12"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/heart2"
+                    app:srcCompat="@drawable/heart_cropped" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/coin"
+                        android:layout_width="26dp"
+                        android:layout_height="22dp"
+                        android:contentDescription="@string/coin"
+                        app:srcCompat="@drawable/goldcoin" />
+
+                    <TextView
+                        android:id="@+id/money"
+                        android:layout_width="197dp"
+                        android:layout_height="65dp"
+                        android:fontFamily="@font/normalfont"
+                        android:shadowColor="#000"
+                        android:shadowDx="5"
+                        android:shadowDy="5"
+                        android:shadowRadius="4"
+                        android:text="@string/string"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/enemy1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/ninja" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+/* This file is for explaining M3 test cases
+
+Neo
+tigerTowerWeaponUpgradeTest()
+* This will test whether the Tiger Tower’s weapon is being upgraded properly.
+* As the upgrade, adds 50 each time, and the original power is 50, the total should result in 100.
+
+tigerTowerWeaponMaximum()
+* This will test whether the Tiger Tower’s weapon being upgraded is properly maxed off at its limit of 200.
+* Even though the upgrade adds 250 damage power by looking at the code, as the max is 200, the result should stay at 200.
+
+Gyubin(Jason)
+damageFromFrogTowerWeaponIsUpgradedByTen()
+* This tests whether the weapon is upgraded as intended in a FrogTower.
+* This test case checks the damage increases by 10 when an user wants to upgrade a FrogTowerWeapon
+
+frogTowerHasTheMaximumDamageToBeUpgraded()
+* This checks whether a FrogTower's weapon is upgraded at most 50 damages.
+* Even a user wants to upgrade over 50, the damage is set up with 50.
+
+Felice
+frogTowerDamageThreeUpgrades()
+* This test checks to see if the frog tower updates the damage correctly when the weapon is upgraded 3 times. When the tower is updated 3 times, damage should be 40. This is important because it shows whether or not the tower’s damage is being updated properly.
+
+magicTowerDamageThreeUpgrades()
+* This test checks if upgrading the magic tower three times gives us the correct damage of 80. This is important because it makes sure that the magic tower’s damage is being updated properly.
+
+Harrison
+tigerTowerDamageOnceUpgrades()
+* This test checks the tiger tower and makes sure that updating once gives a damage of 100. This is important because it makes sure that the tiger tower’s damage is being updated properly after one upgrade.
+
+tigerTowerDamageTwiceUpgrades()
+* This test checks that the tiger tower gives a damage of 150 when it’s upgraded twice. This is important because it makes sure that the tiger tower’s damage is being updated properly after two upgrades
+
+Sharon
+magicTowerWeaponUpdatedCorrectly()
+* This test makes sure that everytime magic tower is upgraded, it's damage increases by 20.
+
+magicTowerWeaponCannotExceedMaximumDamage()
+* This test checks that magic tower's damage is capped at 100. When it's at 100, upgrading the tower causes no changes.
+
+*/
