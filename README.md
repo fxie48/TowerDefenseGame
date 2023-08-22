@@ -1,8 +1,13 @@
 # Tower Defense Mobile Game
 ## About
-In our tower defense game, users can select their difficulty level, gain coins to buy towers, place/updgrade towers to attack incoming enemies, and fight a final boss. For more details, check out our demo of the game [here](https://www.youtube.com/watch?v=PkakJWHqb0I).
+Our group created our version of a tower defense game in Android Studios, which we blueprinted using domain models, system sequence diagrams, design class diagrams, and system diagrams. 
+
+In our tower defense game, users can select from three difficulty levels, gain coins to buy towers, place and updgrade towers to attack incoming enemies, fight a final boss, and more!
+
+For more details, check out our demo of the game [here](https://www.youtube.com/watch?v=PkakJWHqb0I).
 
 ## Game Screenshots
+Here are screenshots of the main screens and features of our game.
 ### Home Screen
 <img width="1350" alt="home-screen" src="https://github.com/fxie48/TowerDefenseGame/assets/100004164/49be9df0-60db-4413-8cb2-931ae8333dd2">
 
