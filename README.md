@@ -2,7 +2,7 @@
 ## About
 Our group created our version of a tower defense game in Android Studios, which we blueprinted using domain models, system sequence diagrams, design class diagrams, and system diagrams. 
 
-In our tower defense game, users can select from three difficulty levels, gain coins to buy towers, place and updgrade towers to attack incoming enemies, fight a final boss, and more!
+In our tower defense game, users can select from three difficulty levels, gain coins to buy towers, place and upgrade towers to attack incoming enemies, fight a final boss, and more!
 
 For more details, check out our demo of the game [here](https://www.youtube.com/watch?v=PkakJWHqb0I).
 
